@@ -8,7 +8,7 @@ class List extends React.Component {
 
   render() {
     return (
-      <ul>
+      <ul id="list">
       {this.context.todoList
         && this.context.todoList.map(item => (
           <li
